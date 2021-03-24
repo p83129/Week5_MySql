@@ -56,10 +56,12 @@ where username='ply';
 
 #3-9
 delete from user;
+
 ![1616592535010](https://user-images.githubusercontent.com/77446871/112326243-51a87900-8cef-11eb-89de-6bcc55e62274.jpg)
 
 #4
 先建立message
+
 create table message (
 id bigint unsigned not null auto_increment primary key,
 user_id bigint not null,
@@ -68,6 +70,7 @@ time datetime not null default current_timestamp
 );
 
 再建立user兩筆資料
+
 insert into user(name, username, password)
 values('test1name', 'ply', 'ply');
 
@@ -75,6 +78,7 @@ insert into user(name, username, password)
 values('test2name', 'ply2', 'ply2');
 
 建立message三筆資料
+
 insert into message(user_id, content)
 values('6', '哈囉~你好~');
 
