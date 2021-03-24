@@ -84,7 +84,7 @@ values('test2name', 'ply2', 'ply2');
 建立message三筆資料
 
 insert into message(user_id, content)
-values('6', '哈囉~你好~');
+values('6', '哈囉~你好');
 
 insert into message(user_id, content)
 values('6', '過得如何~');
