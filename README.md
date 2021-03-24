@@ -19,6 +19,7 @@ values('test5name', 'test5ply', 'test5ply');
 
 #3-2
 select * from user;
+
 ![1616591354849](https://user-images.githubusercontent.com/77446871/112324979-443ebf00-8cee-11eb-83ea-4d5ddb5f66ea.jpg)
 
 #3-3
