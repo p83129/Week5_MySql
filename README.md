@@ -1,5 +1,8 @@
 # Week5_MySql
+#要求三
+
 #3-1
+
 insert into user(name, username, password)
 values('test1name', 'ply', 'ply');
 ![1616590960689](https://user-images.githubusercontent.com/77446871/112324698-0477d780-8cee-11eb-9800-32ff89d3ddd9.jpg)
@@ -59,7 +62,8 @@ delete from user;
 
 ![1616592535010](https://user-images.githubusercontent.com/77446871/112326243-51a87900-8cef-11eb-89de-6bcc55e62274.jpg)
 
-#4
+#要求四
+
 先建立message
 
 create table message (
