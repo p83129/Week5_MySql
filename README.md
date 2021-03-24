@@ -23,6 +23,7 @@ select * from user;
 
 #3-3
 select count(*) from user;
+
 ![1616591493078](https://user-images.githubusercontent.com/77446871/112325173-6b958c00-8cee-11eb-8e41-c98d8e42b12c.jpg)
 
 #3-4
