@@ -36,10 +36,8 @@ order by time desc;
 ![1616591684082](https://user-images.githubusercontent.com/77446871/112325303-85cf6a00-8cee-11eb-8049-f719d025f844.jpg)
 
 #3-5
-select * from user
-where id='2'or id='3' or id='4'
-order by time desc;
-![1616591962790](https://user-images.githubusercontent.com/77446871/112325647-d777f480-8cee-11eb-8441-2f2ba852e9b0.jpg)
+select * from user order by time desc limit 1,3;
+![1616652184385](https://user-images.githubusercontent.com/77446871/112426688-54e54880-8d73-11eb-84ac-7402c558ab60.jpg)
 
 #3-6
 select * from user
